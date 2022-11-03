@@ -7,17 +7,15 @@ def etapa1(id):
         new1 =int(x[0])*10 + int(x[2])
         new2 =int(x[1])*10 + int(x[3])
         return new1 + new2
-    id = input("Digite seu ID")
-    while len(id) !=4 or aaa()>100:
-        print('Inválido')
-        id = input("Digite seu ID")
+    id = input()
+    aaa()>100
     return 1000
 
 def etapa2(votos):
     h = True
     num = []
     while h == True:
-        x = int(input('Digite os votos computados (0 para encerrar):'))
+        x = int(input())
         num.append(x)
         if x == 0:
             num.remove(0)
