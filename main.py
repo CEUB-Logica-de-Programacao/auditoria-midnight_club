@@ -1,5 +1,4 @@
 def etapa1(id):
-    return 1000
     lista = []
     def aaa():
         for i in range(0,4):
@@ -12,10 +11,9 @@ def etapa1(id):
     while len(id) !=4 or aaa()>100:
         print('Inválido')
         id = input("Digite seu ID")
-
+    return 1000
 
 def etapa2(votos):
-    return []
     h = True
     num = []
     while h == True:
@@ -33,10 +31,9 @@ def etapa2(votos):
         if n in lista2:
             lista2.remove(n)
     print(lista2)    
-
+    return []
 
 def etapa3(senha):
-    return False
     dict = {}
     def aab():
         for n in range(0,len(senha)):
@@ -64,7 +61,7 @@ def etapa3(senha):
         dict = {}
         aab()
     print(f'Sua senha é {senha}')
-
+    return False
 
 if __name__ == "__main__":
     if etapa1('1234') > 100:
