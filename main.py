@@ -1,4 +1,4 @@
-def etapa1(id):
+def etapa1():
     lista = []
     def aaa():
         for i in range(0,4):
@@ -10,7 +10,7 @@ def etapa1(id):
     id = input()
     return aaa()
 
-def etapa2(votos):
+def etapa2():
     h = True
     num = []
     while h == True:
