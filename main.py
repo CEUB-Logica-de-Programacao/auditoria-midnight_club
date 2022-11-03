@@ -7,15 +7,12 @@ def etapa1(id):
         new1 =int(x[0])*10 + int(x[2])
         new2 =int(x[1])*10 + int(x[3])
         return new1 + new2
-    id = input()
-    print(aaa())
-    return 1000
+    return aaa()
 
 def etapa2(x):
     h = True
     num = []
     while h == True:
-        x = int(input())
         num.append(x)
         if x == 0:
             num.remove(0)
