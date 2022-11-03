@@ -1,4 +1,5 @@
 def etapa1(id):
+    return 1000
     lista = []
     def aaa():
         for i in range(0,4):
@@ -14,6 +15,7 @@ def etapa1(id):
 
 
 def etapa2(votos):
+    return []
     h = True
     num = []
     while h == True:
@@ -34,6 +36,7 @@ def etapa2(votos):
 
 
 def etapa3(senha):
+    return False
     dict = {}
     def aab():
         for n in range(0,len(senha)):
