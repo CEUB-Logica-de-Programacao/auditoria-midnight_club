@@ -13,9 +13,7 @@ def etapa1(id):
     return aaa()
 
 def etapa2(x):
-    num = []
-        num = x
-    nums = sorted(num)
+    nums = sorted(x)
     lista2 =[]
     for n in range(1, len(nums)+1):
         lista2.append(n)
