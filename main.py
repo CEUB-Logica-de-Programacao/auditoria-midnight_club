@@ -43,14 +43,8 @@ def etapa3(senha):
         for k, v in dict.items():
              if nome == k:
                  return v
-    senha = input('Digite sua senha')
-    while aab() == False:
-        print('Senha inválida')
-        senha = input('Digite sua senha')
         dict = {}
-        aab()
-    print(f'Sua senha é {senha}')
-    return False
+    return aab()
 
 if __name__ == "__main__":
     if etapa1('1234') > 100:
