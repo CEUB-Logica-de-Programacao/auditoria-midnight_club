@@ -43,7 +43,6 @@ def etapa3(senha):
         for k, v in dict.items():
              if nome == k:
                  return v
-        dict = {}
     return aab()
 
 if __name__ == "__main__":
