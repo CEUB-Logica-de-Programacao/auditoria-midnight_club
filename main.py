@@ -8,7 +8,8 @@ def etapa1(id):
         new2 =int(x[1])*10 + int(x[3])
         return new1 + new2
     id = input()
-    return aaa()
+    print(aaa())
+    return 1000
 
 def etapa2(x):
     h = True
@@ -26,7 +27,8 @@ def etapa2(x):
     for n in nums:
         if n in lista2:
             lista2.remove(n)
-    return lista2
+    print(lista2)
+    return []
 
 def etapa3(senha):
     dict = {}
