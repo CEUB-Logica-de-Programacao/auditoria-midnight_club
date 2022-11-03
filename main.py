@@ -1,4 +1,4 @@
-def etapa1():
+def etapa1(id):
     lista = []
     def aaa():
         for i in range(0,4):
@@ -10,7 +10,7 @@ def etapa1():
     id = input()
     return aaa()
 
-def etapa2():
+def etapa2(x):
     h = True
     num = []
     while h == True:
@@ -21,7 +21,6 @@ def etapa2():
             h = False
     nums = sorted(num)
     lista2 =[]
-    print(num,nums)
     for n in range(1, len(nums)+1):
         lista2.append(n)
     for n in nums:
