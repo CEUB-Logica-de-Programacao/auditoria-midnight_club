@@ -1,22 +1,20 @@
 def etapa1(id):
     lista = []
+    id = str(id)
     def aaa():
-        for i in range(0,4):
+        for i in range(0, len(id)):
             lista.append(int(id[i]))
-            x = sorted(lista)
+        while len(lista) <4:
+            lista.append(0)
+        x = sorted(lista)
         new1 =int(x[0])*10 + int(x[2])
         new2 =int(x[1])*10 + int(x[3])
         return new1 + new2
     return aaa()
 
 def etapa2(x):
-    h = True
     num = []
-    while h == True:
-        num.append(x)
-        if x == 0:
-            num.remove(0)
-            h = False
+        num = x
     nums = sorted(num)
     lista2 =[]
     for n in range(1, len(nums)+1):
@@ -24,8 +22,7 @@ def etapa2(x):
     for n in nums:
         if n in lista2:
             lista2.remove(n)
-    print(lista2)
-    return []
+    return lista2
 
 def etapa3(senha):
     dict = {}
